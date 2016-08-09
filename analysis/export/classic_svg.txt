@@ -1,0 +1,43 @@
+Traversal:  ,  --sv
+Load Maze
+ : Filename: data/prim_classic.maze
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 61885.3 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 70730.6 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 56345 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 73087.2 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 68865.3 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 75148.8 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 73610.6 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 71365 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 72742 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 65296.6 ms

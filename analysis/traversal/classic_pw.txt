@@ -1,0 +1,13 @@
+Traversal:  ,  --pw
+Load Maze
+ : Filename: data/prim_classic.maze
+Pathfinding Time: 1861.01 ms
+Pathfinding Time: 1863.3 ms
+Pathfinding Time: 1862.29 ms
+Pathfinding Time: 1860.6 ms
+Pathfinding Time: 1861.47 ms
+Pathfinding Time: 1864.37 ms
+Pathfinding Time: 1866.61 ms
+Pathfinding Time: 1861.37 ms
+Pathfinding Time: 1861.74 ms
+Pathfinding Time: 1860.3 ms

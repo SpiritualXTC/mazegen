@@ -1,0 +1,43 @@
+Traversal:  ,  --sb
+Load Maze
+ : Filename: data/recursive.maze
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 3031.26 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 2756.55 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 2825.29 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 3240.85 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 3025.4 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 2757.24 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 2578.1 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 2712.78 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 2656.29 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 2857.87 ms

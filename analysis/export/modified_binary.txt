@@ -1,0 +1,43 @@
+Traversal:  ,  --sb
+Load Maze
+ : Filename: data/prim_modified.maze
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 3351.48 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 3295.5 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 3050.71 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 3298.92 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 3156.04 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 2874.92 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 3002.37 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 3594.6 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 3386.4 ms
+Save Maze
+ : Filename: temp/out.maze
+ : Format: Binary
+Export Time: 3145.79 ms

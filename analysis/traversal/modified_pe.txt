@@ -1,0 +1,13 @@
+Traversal:  ,  --pe
+Load Maze
+ : Filename: data/prim_modified.maze
+Pathfinding Time: 1356.42 ms
+Pathfinding Time: 1356.98 ms
+Pathfinding Time: 1355.59 ms
+Pathfinding Time: 1355.57 ms
+Pathfinding Time: 1356.22 ms
+Pathfinding Time: 1355.18 ms
+Pathfinding Time: 1355.56 ms
+Pathfinding Time: 1354.98 ms
+Pathfinding Time: 1355.23 ms
+Pathfinding Time: 1355.08 ms

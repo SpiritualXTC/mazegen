@@ -1,0 +1,40 @@
+Generate Maze
+ : Dimensions: 2000x2000
+ : Seed: 0
+Generation Time: 4194.23 ms
+Generate Maze
+ : Dimensions: 2000x2000
+ : Seed: 0
+Generation Time: 5364.83 ms
+Generate Maze
+ : Dimensions: 2000x2000
+ : Seed: 0
+Generation Time: 4924.91 ms
+Generate Maze
+ : Dimensions: 2000x2000
+ : Seed: 0
+Generation Time: 5179.56 ms
+Generate Maze
+ : Dimensions: 2000x2000
+ : Seed: 0
+Generation Time: 4257.74 ms
+Generate Maze
+ : Dimensions: 2000x2000
+ : Seed: 0
+Generation Time: 4562.83 ms
+Generate Maze
+ : Dimensions: 2000x2000
+ : Seed: 0
+Generation Time: 4753.23 ms
+Generate Maze
+ : Dimensions: 2000x2000
+ : Seed: 0
+Generation Time: 5047.28 ms
+Generate Maze
+ : Dimensions: 2000x2000
+ : Seed: 0
+Generation Time: 4140.8 ms
+Generate Maze
+ : Dimensions: 2000x2000
+ : Seed: 0
+Generation Time: 4658.76 ms

@@ -1,0 +1,43 @@
+Traversal:  ,  --sv
+Load Maze
+ : Filename: data/recursive.maze
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 71064.7 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 73255 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 66635.3 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 66600.2 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 73102.1 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 61135.2 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 71814.1 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 58134.6 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 69801.1 ms
+Save Maze
+ : Filename: temp/out.svg
+ : Format: SVG
+Export Time: 68220.6 ms

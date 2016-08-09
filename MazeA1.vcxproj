@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D0852202-6755-4ED6-BBF5-9F39ACB712FC}</ProjectGuid>
+    <RootNamespace>MazeA1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Development SDK\SDK\boost_1_58_0;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Development SDK\SDK\boost_1_58_0\stage\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="app.cpp" />
+    <ClCompile Include="command_args.cpp" />
+    <ClCompile Include="console.cpp" />
+    <ClCompile Include="generators\maze_generate_prims_classic.cpp" />
+    <ClCompile Include="generators\maze_generate_prims_modified.cpp" />
+    <ClCompile Include="generators\maze_generate_prims.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="maze\maze.cpp" />
+    <ClCompile Include="maze\maze_builder.cpp" />
+    <ClCompile Include="io\maze_export_binary.cpp" />
+    <ClCompile Include="io\maze_export_svg.cpp" />
+    <ClCompile Include="generators\maze_generate_recursive.cpp" />
+    <ClCompile Include="io\maze_import_binary.cpp" />
+    <ClCompile Include="maze\maze_path.cpp" />
+    <ClCompile Include="traversal\maze_traversal_tremaux.cpp" />
+    <ClCompile Include="traversal\maze_traverse_astar.cpp" />
+    <ClCompile Include="traversal\maze_traverse_wall_follow.cpp" />
+    <ClCompile Include="util\random.cpp" />
+    <ClCompile Include="util\timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app.h" />
+    <ClInclude Include="command_args.h" />
+    <ClInclude Include="console.h" />
+    <ClInclude Include="exception.h" />
+    <ClInclude Include="generators\maze_generate_prims.h" />
+    <ClInclude Include="generators\graph.h" />
+    <ClInclude Include="options.h" />
+    <ClInclude Include="options_generate.h" />
+    <ClInclude Include="options_io.h" />
+    <ClInclude Include="options_traverse.h" />
+    <ClInclude Include="maze\maze.h" />
+    <ClInclude Include="maze\maze_builder.h" />
+    <ClInclude Include="io\maze_export_binary.h" />
+    <ClInclude Include="io\maze_export_svg.h" />
+    <ClInclude Include="generators\maze_generate_recursive.h" />
+    <ClInclude Include="io\maze_import_binary.h" />
+    <ClInclude Include="maze\maze_path.h" />
+    <ClInclude Include="generators\maze_generate_prims_classic.h" />
+    <ClInclude Include="generators\maze_generate_prims_modified.h" />
+    <ClInclude Include="traversal\heuristic.h" />
+    <ClInclude Include="traversal\heuristic_euclidean.h" />
+    <ClInclude Include="traversal\heuristic_manhattan.h" />
+    <ClInclude Include="traversal\maze_traversal_tremaux.h" />
+    <ClInclude Include="traversal\maze_traverse_astar.h" />
+    <ClInclude Include="traversal\maze_traverse_wall_follow.h" />
+    <ClInclude Include="maze\maze_types.h" />
+    <ClInclude Include="util\random.h" />
+    <ClInclude Include="util\timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+    <Text Include="readme_assignment1.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

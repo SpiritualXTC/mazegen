@@ -1,0 +1,13 @@
+Traversal:  ,  --pw
+Load Maze
+ : Filename: data/recursive.maze
+Pathfinding Time: 4197.39 ms
+Pathfinding Time: 4098.2 ms
+Pathfinding Time: 3997.61 ms
+Pathfinding Time: 4309.59 ms
+Pathfinding Time: 3801.35 ms
+Pathfinding Time: 3999.3 ms
+Pathfinding Time: 4271.98 ms
+Pathfinding Time: 4936.82 ms
+Pathfinding Time: 4313.3 ms
+Pathfinding Time: 4250.25 ms
